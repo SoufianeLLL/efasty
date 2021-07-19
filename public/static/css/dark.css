@@ -1,0 +1,128 @@
+:root {
+	--background: rgba(208, 213, 227, 0.15);
+	--bg-color:  #131212;
+	--text-color: white;
+}
+.start-over a {
+	color: var(--text-color);
+}
+.menu_navigation,
+body {
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+svg path {
+	fill: var(--text-color);
+}
+.steps-box__item.active svg {
+	background: rgba(1, 97, 255, 0.33);
+}
+.i-bottom_end {
+	background: var(--bg-color);
+}
+.switch {
+	background: rgba(255, 255, 255, 0.3);
+}
+.switch .dot {
+	transform: translateX(var(--offset, 20px));
+	-webkit-transform: translateX(var(--offset, 20px));
+	background: gray;
+}
+.habits_category__ svg path {
+    fill: rgb(232, 25, 25);
+}
+.col-bmi__title,
+.weight__ input[type="text"],
+.btn.btn-male,
+.user_email input,
+.btn.btn-female,
+.goBack__link,
+.menu_navigation ul a,
+.app-logo {
+	color: var(--text-color);
+}
+.shadow {
+	background: rgb(1, 1, 6);
+	opacity: 0.8;
+}
+.guarantee_badge path,
+.goBack__link path {
+	fill: var(--text-color);
+}
+.weight_unit span {
+	background: rgba(255, 255, 255, 0.14);
+}
+.res__with_shadow,
+.money_back_guarantee,
+.user_email input,
+.next__step .button.disabled,
+.col-cat__b,
+.step-box__items .step__bar,
+.steps-box__item svg {
+	background: var(--background);
+}
+.btn.btn-male,
+.btn.btn-female {
+	border-color: var(--background);
+	background: transparent;
+}
+#wifi-loader svg circle.back {
+	stroke: var(--background);
+}
+
+.payment-method {
+	filter: grayscale(100%) brightness(250%);
+}
+.payment__sy {
+    background: rgba(30, 31, 36, 0.45);
+    border: 1px solid rgba(0, 0, 0, 0.45);
+}
+.payment__sy .price__ {
+    border-left: 2px solid rgba(0, 0, 0, 0.17);
+}
+.payment__sy .promotion__ {
+    background: rgb(86, 88, 100);
+}
+.payment__sy.active {
+    background: rgba(4, 64, 255, 0.2);
+}
+.mdc-data-table__row.active {
+    background: rgba(0, 255, 0, 0.17);
+}
+.background__white, .background__white .res_box {
+    background: rgb(49, 50, 53);
+}
+.nmb-exp {
+    background: rgba(255, 0, 0, 0.56);
+    color: white;
+}
+.cursor_selector {
+	border-color: rgb(49, 50, 53);
+}
+.ID__ span,
+hr {
+    background: var(--bg-color) !important;
+}
+.ID__ {
+	color: var(--bg-color);
+}
+.BFP_container .col-bmi_, .BMI_container .col-bmi_ {
+    border-color: rgb(49, 50, 53);
+	background: rgba(255, 255, 255, 0.18);
+}
+.filesModal {
+    background: var(--bg-color);
+    box-shadow: 0px -10px 40px 15px rgba(0, 0, 0, 0.64);
+}
+.pdf__file a {
+    background: transparent;
+}
+.file__ {
+    background: transparent;
+}
+.cls-15, .cls-4 {
+	fill: white;
+}
+.cls-1, .cls-11, .cls-14, .cls-15, .cls-20, .cls-3 {
+	stroke: rgb(34, 34, 34);
+}

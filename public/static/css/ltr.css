@@ -1,0 +1,99 @@
+* {
+	direction: ltr;
+	text-align: left;
+}
+.ml-2, .mx-2 {
+	margin-right: .5rem !important;
+	margin-left: 0 !important;
+}
+.col-cat__b .cat_thumbnail {
+	float: left;
+	margin: 0 1em 0 0;
+}
+.col-cat__b .cat_details {
+	float: left;
+	padding-right: 1em;
+}
+.card-input__input.-select {
+	background-position: 95% center;
+}
+.chose_q.col-cat__b.w-50 .qu_vote {
+	float: left;
+	margin-right: 1em;
+	height: 35px;
+	width: 45px;
+	margin-left: 0 !important;
+}
+.chose_q.col-cat__b h4 {
+	font-size: 18px;
+}
+.guarantee_badge {
+	right: -2.8em;
+	left: inherit !important;
+}
+.check__note {
+	text-align: left !important;
+}
+.ID__ span {
+	right: 0;
+	left: inherit !important;
+}
+.ID__ span:nth-child(4) {
+	left: 15px !important;
+	right: inherit !important;
+}
+.nmb-exp {
+	left: 55px;
+	right: inherit !important;
+}
+
+.BFP_container .nmb-exp, .BMI_container .nmb-exp {
+	margin-right: 8px;
+	margin-top: 0;
+	margin-left: 0;
+}
+.mr-2, .mx-2 {
+	margin-left: .5rem !important;
+	margin-right: inherit;
+}
+.text-right {
+	text-align: left !important;
+}
+.ml-3, .mx-3 {
+	margin-right: 1rem !important;
+	margin-left: inherit !important;
+}
+.calories__calc_col .cal__title span {
+	text-align: left;
+}
+.cal__calories_percent span {
+	margin-right: inherit !important;
+}
+.menuToggle {
+	float: right !important;
+}
+.col-md-3.col-sm-4.col-xs-12.pr-0 {
+	padding: 0 1em 0 0 !important;
+}
+.explanation__.ml-4 {
+	margin: 0 0 0 !important;
+}
+.row.mt-5.mx-0 .col-md-9.col-sm-8.col-xs-12 {
+	padding: 0 1em !important;
+}
+.BFP_container .nmb-exp, .BMI_container .nmb-exp,
+.mlp-header__app .float-left,
+.explanation__ .nmb-exp,
+.BFP_container.res_box h2.h5,
+.BMI_container.res_box h2.h5 {
+    float: left !important;
+}
+.calories__calc_col .cal__title {
+    margin: 0 0 0 1em !important;
+}
+.ml-2.lang_ {
+    margin-left: 8px !important;
+}
+.lang_ {
+    float: right;
+}

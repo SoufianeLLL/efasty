@@ -1,0 +1,32 @@
+{
+  "name": "efasty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://efasty.soufiane.co",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "firebase": "^8.7.1",
+    "js-base64": "^3.6.1",
+    "moment": "^2.29.1",
+    "next": "^10.2.3",
+    "next-i18next": "^7.0.1",
+    "react": "^17.0.2",
+    "react-customizable-progressbar": "^1.0.3",
+    "react-dom": "^17.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node ./server/index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node ./server/index.js"
+  },
+  "browser": {
+    "child_process": false
+  },
+  "author": "Soufiane L",
+  "license": "ISC"
+}
